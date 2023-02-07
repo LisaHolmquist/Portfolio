@@ -71,7 +71,7 @@
     display: grid;
     color: #BF510E;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 300;
     grid-column: 5 / 11;
     margin-block-start: 0em;
@@ -131,7 +131,7 @@ img {
     justify-content: flex-end;
     align-items: center;
     margin-left: 64.22%;
-    margin-top: 10px;
+    margin-top: 25px;
     padding: 0;
 }
 
