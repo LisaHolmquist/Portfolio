@@ -49,7 +49,7 @@
 
 .dark {
     background-color: #ADBDA3;
-    height:338px;
+    height:auto;
 }
 
 
@@ -70,9 +70,10 @@ h1 {
 
 /*Figure out how to make large mock-up with hidden overflow based on row not column*/
 .mockUp img {
-    height:330px;
+    height:100%;
     width:auto;
-    transform:rotate(-13.77deg)
+    bottom:0;
+    right:0;
 }
 
 
