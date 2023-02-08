@@ -34,7 +34,7 @@ img {
     margin-top: 11px;
     margin-left: 1%;
     margin-right: 2%;
-    width: 79px;
+    width: auto;
     height: 26px;
     font-family: 'Poiret One', cursive;
     text-align: center;
@@ -99,7 +99,7 @@ img {
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-weight: 300;
-    z-index: 5;
+    z-index: 6;
 }
 
 
@@ -115,7 +115,7 @@ img {
     margin-block-end: 0em;
     font-weight: 300;
     width: 320px;
-    z-index: 5;
+    z-index: 6;
 }
 .HOLMQUIST {
     display: inline-block;
@@ -166,7 +166,6 @@ img {
     animation-delay: 2s;
 }
 
-/*struggling with this placement. relative position isn't working and the rest isn't on a grid so this was the best I could do without rewriting everything*/
 #ST {
     color: black;
     background: rgba(0, 0, 0, 0);
@@ -183,10 +182,13 @@ img {
 
 .orange {
     border: 1px solid #FF6100;
+    display:flex;
     text-align: center;
     vertical-align: middle;
     color: black;
     position: absolute;
+    align-items:center;
+    justify-content:center;
     background: rgba(0, 0, 0, 0);
     font-size: 24px;
     margin-left: 15%;
@@ -196,7 +198,6 @@ img {
     height: auto;
     z-index: 7;
 }
-
 
 #footerBlock {
     background-color: #FDFEFC;

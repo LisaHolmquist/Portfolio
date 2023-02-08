@@ -5,71 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Tab</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poiret+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
-    <nav>
-    <ul class="nav">
-        <li class="liNavTop"><a href="../portfolio_homepage/home.html">home</a></li>
-        <li class="liNavTop"><a href="#">work</a>
-            <div class="activePagebar"></div>
-        </li>
-        <li class="liNavTop"><a href="../AboutMeTab/about.html">about</a></li>
-        <li class="liNavTop"><a href="#">contact</a></li>
-    </ul>
-    </nav>
-</header>
 
-<section>
-    <div id="mainTiles">
-        <div id="projectTile1">
-            <h1 class="project1 fadeInLeft">Humane Society of New York Mobile Site Redesign</h1>
-            <p class="projSummary fadeInLeft">The current site for the Humane Society of New York is cluttered, disorganized, and overwhelming. Me and a group of 3 other designers took on different roles to redesign this site with a mobile-first approach to make it friendly and intuitive.<br><br>Role: Project Manager, UX Researcher, UI Designer<br>Timeframe: 3 weeks</p>
-            <button class="readMore fadeIn"><a href="./HSNY_case_study/HSNY.html">read more</a></button>
-            <div class="project1Image fadeInRight">
-                <img src="Quase-mockup - Project1.jpg" alt="Project1 Mock-up">
-            </div>
-        </div>
+<div class="container-fluid nav">    
+    <li class="liNavTop"><a href="../portfolio_homepage/home.html">home</a></li>
+    <li class="liNavTop"><a href="#">work</a>
+        <div class="activePagebar"></div>
+    </li>
+    <li class="liNavTop"><a href="../AboutMeTab/about.html">about</a></li>
+    <li class="liNavTop"><a href="#">contact</a></li>
+</div>
 
-        <div id="projectTile2">
-            <h2 class="project2 fadeInRight">Project 2 Title</h2>
-            <p class="projSummary2 fadeInRight">small description: Lorem ipsum dolor sit amet. consectetur adipiscing elit. Maecenas cel porta nisl. Integer ac odio risus. Curabitur eros lectus. iaculis ac ornare non, posuere mollis sem.</p>
-            <button class="readMore2 fadeIn"><a href="#">read more</a></button>
-            <div class="project2Image fadeInLeft">
-                <img src="quase-mockup - Project2.jpg" alt="Project2 Mock-up">
-            </div>
-        </div>
 
-        <div id="projectTile3">
-            <h3 class="project3 fadeInLeft">Project 3 Title</h3>
-            <p class="projSummary fadeInLeft">small description: Lorem ipsum dolor sit amet. consectetur adipiscing elit. Maecenas cel porta nisl. Integer ac odio risus. Curabitur eros lectus. iaculis ac ornare non, posuere mollis sem.</p>
-            <button class="readMore fadeIn"><a href="#">read more</a></button>
-            <div class="project3Image fadeInRight">
-                <img src="quase-mockup - Project3.jpg" alt="Project3 Mock-up">
+<section class="project1">
+    <div class="container-fluid dark">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h1>Humane Society of New York Mobile Redesign</h1>
+                <p>The current site for the Humane Society of New York is cluttered, disorganized, and overwhelming. Me and a group of 3 other designers took on different roles to redesign this site with a mobile-first approach to make it friendly and intuitive.<br><br><span>Role:</span> Project Manager, UX Researcher, UI Designer<br><span>Timeframe:</span> 3 weeks</p>
+                <button class="readMore fadeIn"><a href="../work_tab/HSNY_case_study/HSNY.html">read more</a></button>
             </div>
-        </div>
+            <div class="col-md-6 mockUp1 align-items-center my-auto">
+                <img src="Full HSNY Mock-up.png" class="image-fluid" alt="Humane Society of New York Mobile Homepage">
+            </div>
+        </div> 
     </div>
 </section>
 
-<footer>
+<div class="container-fluid light">
+    <div class="row text-center">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            <h1>Project2 Title</h1>
+            <p>brief summary</p>
+            <button class="readMore2 fadeIn"><a href="#">read more</a></button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid dark">
+    <div class="row text-center">
+        <div class="col-md-6">
+            <h1>Project3 Title</h1>
+            <p>brief summary</p>
+            <button class="readMore fadeIn"><a href="#">read more</a></button>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
     <div id="footerBlock">
         <h1 id="footLISA">LISA</h1>
         <h2 id="footHOLMQUIST">HOLMQ<span>UI</span>ST</h2>
-
+    
         <div id="leftLine"></div>
-        <div id="rightLine"></div>
-
+    
         <li class="liNavFoot"><a href="../portfolio_homepage/home.html">home</a></li>
         <li class="liNavFoot"><a href="#">work</a></li>
         <li class="liNavFoot"><a href="../AboutMeTab/about.html">about</a></li>
         <li class="liNavFoot"><a href="#">contact</a></li>
+    </div>    
+</div>
+ 
     
-    </div>
-</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-<script src ="script.js"></script>
 </html>

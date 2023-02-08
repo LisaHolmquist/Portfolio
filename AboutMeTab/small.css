@@ -10,8 +10,7 @@
 .liNavTop {
     display: inline-block;
     margin-top: 11px;
-    margin-left: 15px;
-    margin-right: 44px;
+    margin-right: 6%;
     width: 79px;
     height: 26px;
     font-family: 'Poiret One', cursive;
@@ -332,9 +331,10 @@ img {
     margin-top: 25px;
     width: 108px;
     height: 40px;
+    margin-right:6%;
     font-family: 'Poiret One', cursive;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     z-index: 2;
 }
