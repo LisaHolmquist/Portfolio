@@ -1,0 +1,392 @@
+
+
+
+.nav {
+    color: black;
+    display: flex;
+    justify-content:flex-end;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    list-style-type: none;
+}
+.liNavTop {
+    display: inline-block;
+    margin-right: 3%;
+    width: 79px;
+    height: 26px;
+    margin-bottom: 17px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+}
+.liNavTop a {
+    color: black;
+    text-decoration: none;
+}
+.liNavTop a:hover {
+    color:#BF510E;
+    font-weight: 800;
+}
+.activePagebar {
+    background-color: #BF510E;
+    position: relative;
+    top: -40px;
+    opacity: 1;
+    height: 8px;
+    width: 79px;
+    margin-top: 0px;
+    align-items: center;
+    z-index: 2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+    background-color: #ADBDA3;
+    height:auto;
+}
+
+
+.pageHeading {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+}
+h1 {
+    color:#BF510E;
+    background-color: rgba(0,0,0,0);
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 60px;
+}
+
+
+
+.mockUp img {
+    height:100%;
+    width:auto;
+    bottom:0;
+    right:0;
+}
+
+
+.light {
+    background-color: #F3F5F1;
+}
+
+h2 {
+    color: black;
+    font-size:36px;
+    margin-left: 10%;
+    padding-top: 48px;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: rgba(0,0,0,0);
+    font-weight:400;
+}
+p1 {
+    display:flex;
+    color: black;
+    margin-left: 10%;
+    margin-right:10%;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+.topHeadPar {
+    display: flex;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right:10%;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    padding-bottom:48px;
+}
+
+
+.orangeLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#BF510E;
+    width: 94%;
+    height: 1px;
+    margin-top:24px;
+    margin-bottom:24px;
+}
+
+
+
+h3 {
+    color:#BF510E;
+    padding-top: 82px;
+    padding-bottom: 69px;
+    font-size:36px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+h5 {
+    color:#BF510E;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size:36px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+h4 {
+    color: black;
+    font-size:32px;
+    font-family: 'Poiret One', cursive;
+}
+p2 {
+    display: flex;
+    color: black;
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+}
+.text-column {
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    margin-top:15%;
+}
+.text-column2 {
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    margin-top:10%;
+}
+.bottomPar {
+    padding-bottom:50px;
+}
+
+
+
+.protoButton {
+    display: block;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size:32px;
+    background-color:#ADBDA3;
+    border: none;
+    border-radius:30px;
+    text-decoration: none;
+    width:550px;
+    height:44px;
+}
+.protoButton a {
+    color: black;
+    text-decoration: none;
+}
+.protoButton a:hover {
+    display: block;
+    margin:auto;
+    color: white;
+    background-color:#BF510E;
+    border: none;
+    align-items: center;
+    width: 550px;
+    height:44px;
+    border-radius:30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+.button {
+    padding-bottom: 50px;
+}
+
+
+.row {
+    display: flex;
+}
+.column {
+    flex:50%;
+    justify-content: center;
+    align-items: center;
+}
+.column2 {
+    flex:33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.research img {
+    height: 408px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+.images {
+    margin-bottom: 50px;
+}
+
+.features img {
+    width: 655px;
+    height: auto;
+}
+
+.competitors {
+    width: 847px;
+    height: auto;
+}
+
+.prototypes img {
+    height:573px;
+    width: auto;
+}
+.imgTitle {
+    color:#BF510E;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+.threeProtos img {
+    display: block;
+    margin:auto;
+}
+.twoProtos img {
+    display:block;
+    margin:auto;
+}
+.moreInfo img {
+    height: 150px;
+    width: auto;
+    margin-top:10%;
+}
+.siteMap {
+    height:574px;
+    width: auto;
+}
+
+
+#footerBlock {
+    background-color: white;
+    height: 104px;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+}
+#footLISA {
+    color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 55px;
+    font-weight: 300;
+    margin-left: 17px;
+    margin-top: 10px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    z-index: 2;
+}
+#footHOLMQUIST {
+    color:black;
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    margin-left: 17px; 
+    z-index: 2;
+}
+#footHOLMQUIST span {
+    color:#FF6100;
+    background: rgba(0, 0, 0, 0);
+    z-index: 2; 
+}
+#leftLine {
+    background-color: #FF6100;
+    height: 75px;
+    width: 1px;
+    margin-top: 14.5px;
+    margin-left: 130px;
+}
+#rightLine {
+    background-color:#FF6100;
+    height: 75px;
+    width: 1px;
+    margin-top: 14.5px;
+}
+.liNavFoot {
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 11.8%;
+    width: 108px;
+    height: 40px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    z-index: 2;
+}
+.liNavFoot a {
+    color: black;
+    text-decoration: none;
+}
+.liNavFoot a:hover {
+    color:#BF510E;
+    font-weight: 800;
+}
+
+
+
+@media only screen and (max-width:889px) {
+    h1 {
+        font-size:48px;
+    }
+    p1 {
+        font-size:18px;
+    }
+    h4 {
+        font-size:28px;
+    }
+    .nav {
+        color: black;
+        display: flex;
+        justify-content:space-evenly;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        list-style-type: none;
+    }
+    .protoButton {
+        width:400px;
+        height:44px;
+    }
+    .protoButton a:hover {
+        width: 400px;
+        height:44px;  
+    }
+    #footLISA {
+        margin-left:0px;
+    }
+    #footHOLMQUIST {
+        margin-left:0px;
+    }
+    .liNavFoot {
+        display:flex;
+        justify-content:space-around;
+        margin-left: 5%;
+    }
+} 
+
+
+/*Possibly add a "back to top" button and a "also check out this case!" at the bottom?*/
+/*Add a small.css sheet for mobile*/
+
+/*Add some image fading in javascript if you're feeling fancy*/
