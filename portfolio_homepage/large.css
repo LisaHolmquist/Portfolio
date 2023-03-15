@@ -6,19 +6,47 @@ body {
     width: 100%;
 }
 
-#image {
-    width: 40%;
-    height: auto;
-    opacity:0;
+.image {
     z-index: 1;
 }
 
 img {
+    height:80%;
+    width:auto;
     display: block;
     position: absolute;
     right: 0px;
     bottom: 0px;
-    padding-right: 27%;
+    background-color:rgba(0, 0, 0, 0);
+    margin-right: 21%;
+    margin-bottom:90px;
+}
+
+.rotate{
+    -webkit-animation: rotate 150s infinite linear;
+    -moz-animation: rotate 150s infinite linear;
+    -o-animation: rotate 150s infinite linear;
+    animation: rotate 150s infinite linear;
+}
+@-webkit-keyframes rotate {
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotate {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotate {
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .nav {
