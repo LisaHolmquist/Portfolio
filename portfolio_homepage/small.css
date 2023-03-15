@@ -62,17 +62,10 @@ body {
     z-index: -1;
 }
 
-.box {
-    height: 100%;
-    width: 60%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
 
 .white {
     background-color: white;
-    opacity: 0.85;
+    opacity: 0;
     display: flex;
     align-items: flex-start;
     position:absolute;
