@@ -9,6 +9,7 @@ body {
 #image {
     width: 40%;
     height: auto;
+    opacity:0;
     z-index: 1;
 }
 
