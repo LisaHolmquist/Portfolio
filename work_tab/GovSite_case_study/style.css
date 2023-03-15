@@ -80,6 +80,9 @@ h1 {
 .light {
     background-color: #F3F5F1;
 }
+.white {
+    background-color:white;
+}
 
 h2 {
     color: black;
