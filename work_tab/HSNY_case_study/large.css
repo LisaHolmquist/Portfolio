@@ -58,12 +58,14 @@
     text-align: center;
     justify-content: center;
     align-items:center;
+    margin-top:20px;
 }
 h1 {
     color:#BF510E;
     background-color: rgba(0,0,0,0);
     font-family: 'Julius Sans One', sans-serif;
     font-size: 60px;
+    text-align: center;
 }
 
 
