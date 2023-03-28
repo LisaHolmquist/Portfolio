@@ -349,3 +349,30 @@ p span {
     color:#BF510E;
     font-weight: 800;
 }
+
+
+@media only screen and (max-width:889px) {
+    h1 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .nav {
+        justify-content: space-evenly;
+    }
+    .readMore {
+        font-size: 22px;
+    }
+    #footLISA {
+        margin-left:0px;
+    }
+    #footHOLMQUIST {
+        margin-left:0px;
+    }
+    .liNavFoot {
+        display:flex;
+        justify-content:space-around;
+        margin-left: 5%;
+    }
+}
