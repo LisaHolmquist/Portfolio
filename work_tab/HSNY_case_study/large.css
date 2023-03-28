@@ -372,7 +372,7 @@ p2 {
         display:flex;
         justify-content:space-around;
         margin-top:20px;
-        margin-left:5%;
+        margin-left:0;
         width:auto;
     }
     #footerBlock {
