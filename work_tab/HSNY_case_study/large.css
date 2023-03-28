@@ -372,6 +372,7 @@ p2 {
         display:flex;
         justify-content:space-around;
         margin-top:20px;
+        margin-left:5%;
         width:auto;
     }
     #footerBlock {
@@ -386,12 +387,12 @@ p2 {
         margin-left:0;
     }
     .prototypes img {
-    height:400px;
-    width: auto;
+        height:400px;
+        width: auto;
     }
     .research img {
-    height: auto;
-    width: 368px;
+        height: auto;
+        width: 368px;
     }
     #leftLine {
         height: 50px;
@@ -400,7 +401,7 @@ p2 {
         height: 50px;
     }
     .pageHeading {
-        margin-top:40px;
+        margin-top:60px;
     }
 } 
 
