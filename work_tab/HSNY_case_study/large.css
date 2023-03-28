@@ -371,7 +371,6 @@ p2 {
     .liNavFoot {
         display:flex;
         justify-content:space-around;
-        margin-left: 10%;
         margin-top:20px;
         width:auto;
     }
@@ -399,6 +398,9 @@ p2 {
     }
     #rightLine {
         height: 50px;
+    }
+    .pageHeading {
+        margin-top:40px;
     }
 } 
 
