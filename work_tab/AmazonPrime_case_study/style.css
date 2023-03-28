@@ -374,23 +374,48 @@ p2 {
         list-style-type: none;
     }
     .protoButton {
-        width:400px;
+        width:300px;
         height:44px;
+        font-size:26px;
     }
     .protoButton a:hover {
-        width: 400px;
+        width: 300px;
         height:44px;  
     }
     #footLISA {
         margin-left:0px;
+        font-size: 35px;
     }
     #footHOLMQUIST {
         margin-left:0px;
+        margin-top:5px;
     }
     .liNavFoot {
         display:flex;
         justify-content:space-around;
-        margin-left: 5%;
+        margin-top:20px;
+        margin-left:0;
+        width:auto;
+    }
+    #footerBlock {
+        height:85px;
+    }
+    .mockUp img {
+        width:290px;
+        height:auto;
+    }
+    h2 {
+        text-align:center;
+        margin-left:0;
+    }
+    #leftLine {
+        height: 50px;
+    }
+    #rightLine {
+        height: 50px;
+    }
+    .pageHeading {
+        margin-top:60px;
     }
 } 
 
