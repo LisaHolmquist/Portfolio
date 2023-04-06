@@ -58,6 +58,8 @@ body {
 .image {
     position:absolute;
     opacity:0;
+    width:10px;
+    height:10px;
     width:2px;
     z-index: -1;
 }

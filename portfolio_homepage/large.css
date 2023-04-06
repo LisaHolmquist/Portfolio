@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    height:80%;
+    height:85%;
     width:auto;
     display: block;
     position: absolute;
@@ -24,10 +24,10 @@ img {
 }
 
 .rotate{
-    -webkit-animation: rotate 150s infinite linear;
-    -moz-animation: rotate 150s infinite linear;
-    -o-animation: rotate 150s infinite linear;
-    animation: rotate 150s infinite linear;
+    -webkit-animation: rotate 200s infinite linear;
+    -moz-animation: rotate 200s infinite linear;
+    -o-animation: rotate 200s infinite linear;
+    animation: rotate 200s infinite linear;
 }
 @-webkit-keyframes rotate {
     100%{
