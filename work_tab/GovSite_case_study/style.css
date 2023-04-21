@@ -284,6 +284,12 @@ p2 {
     margin-top: 0px;
     display: flex;
 }
+#nameLogo {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    align-self:flex-start;
+}
 #footLISA {
     color:black;
     font-family: 'Shadows Into Light', cursive;
@@ -320,23 +326,71 @@ p2 {
     margin-top: 14.5px;
     margin-left: 130px;
 }
-#rightLine {
-    background-color:#FF6100;
-    height: 75px;
-    width: 1px;
-    margin-top: 14.5px;
+#navFootBox {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    width:65%;
 }
 .liNavFoot {
     display: inline-block;
     margin-top: 32px;
-    margin-left: 11.8%;
-    width: 108px;
+    width: auto;
     height: 40px;
     font-family: 'Poiret One', cursive;
     text-align: center;
     font-size: 24px;
     text-decoration: none;
     z-index: 2;
+}
+.contactInfo {
+    display:flex;
+    align-items:flex-end;
+    align-self:flex-end;
+    justify-content:flex-end;
+    flex-direction:column;
+    margin-left:6%;
+    margin-bottom:5px;
+    background-color:rgba(0, 0, 0, 0);
+}
+#email {
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    color:black;
+    background-color:rgba(0, 0, 0, 0);
+    float:right;
+}
+.instaHandle {
+    text-decoration:none;
+    color:black;
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+.instaHandle a {
+    text-decoration:none;
+    color:black;
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+.instaHandle:hover {
+    text-decoration:underline;
+    color:black;
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+#rightLine {
+    background-color: #FF6100;
+    height: 75px;
+    width: 1px;
+    margin-top: 14.5px;
+    margin-left:15px;
 }
 .liNavFoot a {
     color: black;

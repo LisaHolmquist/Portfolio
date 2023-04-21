@@ -285,8 +285,8 @@ img {
 .liNavFoot {
     display: inline-block;
     margin-top: 20px;
-    margin-left: 11.8%;
-    width: 108px;
+    margin-left: 17%;
+    width: auto;
     height: 40px;
     font-family: 'Poiret One', cursive;
     text-align: center;
@@ -294,6 +294,52 @@ img {
     text-decoration: none;
     background: rgba(0, 0, 0, 0);
     z-index: 2;
+}
+.contactInfo {
+    display:flex;
+    align-items:flex-end;
+    align-self:flex-end;
+    flex-direction:column;
+    margin-left:8%;
+    background-color:rgba(0, 0, 0, 0);
+}
+#email {
+    font-family: 'Poiret One', cursive;
+    font-size:14px;
+    color:black;
+    background-color:rgba(0, 0, 0, 0);
+    float:right;
+}
+.instaHandle {
+    text-decoration:none;
+    color:black;
+    font-family: 'Poiret One', cursive;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+.instaHandle a {
+    text-decoration:none;
+    color:black;
+    font-family: 'Poiret One', cursive;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+.instaHandle:hover {
+    text-decoration:underline;
+    color:black;
+    font-family: 'Poiret One', cursive;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+#rightLine {
+    background-color: #FF6100;
+    height: 50px;
+    width: 1px;
+    margin-top: 10px;
+    margin-left:5px;
 }
 .liNavFoot a {
     color: black;

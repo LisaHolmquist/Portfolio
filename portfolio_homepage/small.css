@@ -249,6 +249,32 @@ body {
     width: 1px;
     margin-top: 14.5px;
 }
+.contactInfo {
+    display:flex;
+    justify-content:center;
+    align-self:flex-end;
+    margin-left:2%;
+    background-color:rgba(0, 0, 0, 0);
+}
+#email {
+    opacity:0;
+}
+.instaHandle {
+    opacity:0;
+}
+.instaHandle a {
+    opacity:0;
+}
+.instaHandle:hover {
+    opacity:0;
+}
+#rightLine {
+    background-color: #FF6100;
+    height: 50px;
+    width: 1px;
+    margin-top: 10px;
+    margin-left:5px;
+}
 .liNavFoot {
     display: flex;
     justify-content: space-evenly;

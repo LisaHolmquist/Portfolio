@@ -76,6 +76,7 @@ p {
 .profileImage {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom:5px;
 }
 .profileButtons {
     display:flex;
@@ -97,7 +98,7 @@ img {
     width:100px;
     height:42px;
     font-size:18px;
-    margin-bottom:10px;
+    margin-bottom:5px;
     color:black;
     font-family: 'Poiret One', cursive !important;
 }
@@ -368,6 +369,7 @@ img {
     margin-top: 0px;
     display: flex;
 }
+
 #footLISA {
     color:black;
     font-family: 'Shadows Into Light', cursive;
@@ -423,6 +425,52 @@ img {
     text-decoration: none;
     z-index: 2;
 }
+.contactInfo {
+    display:flex;
+    align-items:flex-end;
+    align-self:flex-end;
+    flex-direction:column;
+    margin-left:8%;
+    background-color:rgba(0, 0, 0, 0);
+}
+#email {
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    color:black;
+    background-color:rgba(0, 0, 0, 0);
+    float:right;
+}
+.instaHandle {
+    text-decoration:none;
+    color:black;
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+.instaHandle a {
+    text-decoration:none;
+    color:black;
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+.instaHandle:hover {
+    text-decoration:underline;
+    color:black;
+    font-family: 'Poiret One', cursive !important;
+    font-size:14px;
+    background-color:white;
+    border:none;
+}
+#rightLine {
+    background-color: #FF6100;
+    height: 50px;
+    width: 1px;
+    margin-top: 10px;
+    margin-left:5px;
+}
 .liNavFoot a {
     color: black;
     text-decoration: none;
@@ -435,5 +483,11 @@ img {
 @media only screen and (max-width: 756px) {
     p {
         font-size: 20px;
+    }
+    #email {
+        opacity:0;
+    }
+    #instaLink {
+        opacity:0;
     }
 }
