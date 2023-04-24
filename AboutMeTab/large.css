@@ -65,7 +65,7 @@
     color: black;
     text-align: center;
     font-family: 'Poiret One', cursive;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 75px;
 }
 p {
@@ -74,18 +74,21 @@ p {
     margin-block-end: 0em;
     margin-bottom: 1.5em;
 }
-
+p span {
+    font-weight:200;
+    color:black;
+}
 
 .profileImage {
     grid-column: 15 / 24;
-    margin-bottom: 20px;
+    margin-bottom:10px;
 }
 .profileButtons {
     grid-column: 15/24;
     margin-left:5%;
 }
 img {
-    width: 530px;
+    width: 550px;
     height: auto;
 }
 
@@ -94,6 +97,9 @@ img {
 }
 
 .linkButton {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     text-decoration:none;
     border-radius:30px;
     border:none;
