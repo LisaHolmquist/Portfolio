@@ -15,9 +15,10 @@
     width: 79px;
     height: 26px;
     margin-bottom: 17px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
 }
 .liNavTop a {
@@ -26,12 +27,12 @@
 }
 .liNavTop a:hover {
     color:#BF510E;
-    font-weight: 800;
+    font-weight: 400;
 }
 .activePagebar {
     background-color: #BF510E;
     position: relative;
-    top: -40px;
+    top: -42px;
     opacity: 1;
     height: 8px;
     width: 79px;
@@ -93,24 +94,32 @@ h2 {
     background-color: rgba(0,0,0,0);
     font-weight:400;
 }
-p1 {
-    display:flex;
-    color: black;
-    margin-left: 10%;
-    margin-right:10%;
-    font-size: 20px;
-    font-family: 'Poiret One', cursive;
-    text-align: center;
+p {
+    color:black;
+    font-size:18px;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
+}
+p span {
+    font-weight:400;
 }
 .topHeadPar {
-    display: flex;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10%;
     margin-right:10%;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
     text-align: center;
     padding-bottom:48px;
+}
+.topHeadPar span {
+    font-weight:400;
+}
+.summary p {
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
 }
 
 
@@ -146,14 +155,7 @@ h5 {
 h4 {
     color: black;
     font-size:32px;
-    font-family: 'Poiret One', cursive;
-}
-p2 {
-    display: flex;
-    color: black;
-    margin-bottom: 28px;
-    font-size: 20px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .text-column {
     display:inline-block;
@@ -179,7 +181,8 @@ p2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
     font-size:32px;
     background-color:#ADBDA3;
     border: none;
@@ -335,10 +338,11 @@ p2 {
 }
 .liNavFoot {
     display: inline-block;
-    margin-top: 32px;
+    margin-top: 10px;
     width: auto;
     height: 40px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight:200;
     text-align: center;
     font-size: 24px;
     text-decoration: none;
@@ -355,7 +359,8 @@ p2 {
     background-color:rgba(0, 0, 0, 0);
 }
 #email {
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight:200;
     font-size:14px;
     color:black;
     background-color:rgba(0, 0, 0, 0);
@@ -364,7 +369,8 @@ p2 {
 .instaHandle {
     text-decoration:none;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 200;
     font-size:14px;
     background-color:white;
     border:none;
@@ -372,7 +378,8 @@ p2 {
 .instaHandle a {
     text-decoration:none;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight:200;
     font-size:14px;
     background-color:white;
     border:none;
@@ -380,7 +387,8 @@ p2 {
 .instaHandle:hover {
     text-decoration:underline;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight:200;
     font-size:14px;
     background-color:white;
     border:none;
@@ -398,7 +406,7 @@ p2 {
 }
 .liNavFoot a:hover {
     color:#BF510E;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 

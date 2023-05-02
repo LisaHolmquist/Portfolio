@@ -13,7 +13,8 @@
     margin-right: 44px;
     width: 79px;
     height: 26px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     text-align: center;
     font-size: 24px;
     text-decoration: none;
@@ -24,7 +25,7 @@
 }
 .liNavTop a:hover {
     color:#BF510E;
-    font-weight: 800;
+    font-weight: 400;
 }
 .activePagebar {
     background-color: #BF510E;
@@ -64,8 +65,9 @@
     grid-column: 2 / 14;
     color: black;
     text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
     margin-top: 75px;
 }
 p {
@@ -75,7 +77,11 @@ p {
     margin-bottom: 1.5em;
 }
 p span {
-    font-weight:200;
+    font-weight:400;
+    color:black;
+}
+p a {
+    font-weight: 400;
     color:black;
 }
 
@@ -108,7 +114,8 @@ img {
     font-size:24px;
     margin-bottom:10px;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif !important;
 }
 .linkButton a {
     color: black;
@@ -301,8 +308,9 @@ img {
     display: grid;
     color: black;
     font-weight: 300;
-    font-family:'Poiret One', cursive;
-    font-size:20px;
+    font-family:'Inter', sans-serif;
+    font-weight: 200;
+    font-size:18px;
     grid-column: 1;
     margin-left: 8%;
 }
@@ -327,8 +335,9 @@ img {
     display: grid;
     color: black;
     font-weight: 300;
-    font-family:'Poiret One', cursive;
-    font-size:20px;
+    font-family:'Inter', sans-serif;
+    font-size:18px;
+    font-weight: 200;
     grid-column: 2;
     margin-left: 8%;
 }
@@ -427,12 +436,13 @@ img {
 }
 .liNavFoot {
     display: inline-block;
-    margin-top: 32px;
+    margin-top: 10px;
     width: auto;
     height: 40px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 200;
     text-decoration: none;
     z-index: 2;
 }
@@ -447,8 +457,9 @@ img {
     background-color:rgba(0, 0, 0, 0);
 }
 #email {
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
     font-size:14px;
+    font-weight: 200;
     color:black;
     background-color:rgba(0, 0, 0, 0);
     float:right;
@@ -456,24 +467,27 @@ img {
 .instaHandle {
     text-decoration:none;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
     font-size:14px;
+    font-weight: 200;
     background-color:white;
     border:none;
 }
 .instaHandle a {
     text-decoration:none;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
     font-size:14px;
+    font-weight: 200;
     background-color:white;
     border:none;
 }
 .instaHandle:hover {
     text-decoration:underline;
     color:black;
-    font-family: 'Poiret One', cursive !important;
+    font-family: 'Inter', sans-serif !important;
     font-size:14px;
+    font-weight: 200;
     background-color:white;
     border:none;
 }
@@ -490,7 +504,7 @@ img {
 }
 .liNavFoot a:hover {
     color:#BF510E;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 1024px) {

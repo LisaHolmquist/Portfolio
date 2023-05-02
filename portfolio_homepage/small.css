@@ -23,7 +23,8 @@ body {
     margin-top: 11px;
     width: auto;
     height: 26px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     text-align: center;
     display:flex;
     justify-content:space-evenly;
@@ -188,8 +189,9 @@ body {
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0);
-    font-size: 20px;
-    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     width: 88%;
     height: auto;
     margin:0;
@@ -280,10 +282,11 @@ body {
     justify-content: space-evenly;
     margin-right:10px;
     margin-left:10px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: auto;
     height: 40px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     font-size: 18px;
     text-decoration: none;
     background: rgba(0, 0, 0, 0);
@@ -297,5 +300,5 @@ body {
 .liNavFoot a:hover {
     color:#BF510E;
     background: rgba(0, 0, 0, 0);
-    font-weight: 800;
+    font-weight: 400;
 }
